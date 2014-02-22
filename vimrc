@@ -6,3 +6,5 @@ set shiftwidth=4
 set softtabstop=4
 set smartindent
 set number
+set wildmenu
+set tags=/home/ben/Code/networks/chitcp/tags
