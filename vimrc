@@ -14,11 +14,22 @@ Bundle 'kien/ctrlp.vim'
 filetype plugin indent on     " required
 
 syntax on
+" configure spacing
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smartindent
+
+"configure interface
 set number
+set ruler
+
+"configure search
+set ignorecase
+set smartcase
+
 set wildmenu
+
+"ctags
 set tags=/home/ben/Code/networks/chitcp/tags
