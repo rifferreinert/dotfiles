@@ -29,6 +29,10 @@ set ruler
 set ignorecase
 set smartcase
 
+"use utf-8
+set encoding=utf8
+set fileencoding=utf8
+
 set wildmenu
 
 "ctags
