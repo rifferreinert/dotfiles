@@ -36,4 +36,4 @@ set fileencoding=utf8
 set wildmenu
 
 "ctags
-set tags=/home/ben/Code/networks/chitcp/tags
+set tags=tags,./tags
