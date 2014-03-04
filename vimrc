@@ -27,6 +27,9 @@ set autoindent
 "configure interface
 set number
 set ruler
+if has('mouse')
+    set mouse=a
+endif
 
 "configure search
 set ignorecase
