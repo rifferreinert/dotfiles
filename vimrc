@@ -41,5 +41,7 @@ set fileencoding=utf8
 
 set wildmenu
 
+set history=1000
+
 "ctags
 set tags=tags,./tags
