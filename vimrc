@@ -21,6 +21,7 @@ set shiftwidth=4
 set softtabstop=4
 
 "automatically indent
+filetype indent on
 set smartindent
 set autoindent
 
@@ -30,6 +31,7 @@ set ruler
 if has('mouse')
     set mouse=a
 endif
+set title
 
 "configure search
 set ignorecase
