@@ -14,7 +14,13 @@ Bundle 'scrooloose/syntastic'
 call vundle#end()
 filetype plugin indent on     " required
 
+"syntax
 syntax on
+let g:syntastic_mode_map = { 'mode' : 'active',
+    \ 'active_filetypes': [],
+    \ 'passive_filetypes': ['htm;']}
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+
 " configure spacing
 set expandtab
 set tabstop=4
