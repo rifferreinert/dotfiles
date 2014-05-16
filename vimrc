@@ -2,15 +2,15 @@ set nocompatible
 "configure vundle
 filetype off
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 " alternatively, pass a path where Vundle should install bundles
 "let path = '~/some/path/here'
 "call vundle#rc(path)
 
 " let Vundle manage Vundle, required
 Bundle 'kien/ctrlp.vim'
-
+call vundle#end()
 filetype plugin indent on     " required
 
 syntax on
@@ -24,6 +24,9 @@ set softtabstop=4
 filetype indent on
 set smartindent
 set autoindent
+
+"folding
+set foldmethod=syntax
 
 "configure interface
 set number
