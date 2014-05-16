@@ -10,6 +10,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Bundle 'kien/ctrlp.vim'
+Bundle 'scrooloose/syntastic'
 call vundle#end()
 filetype plugin indent on     " required
 
