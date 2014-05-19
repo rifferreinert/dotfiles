@@ -18,7 +18,7 @@ filetype plugin indent on     " required
 syntax on
 let g:syntastic_mode_map = { 'mode' : 'active',
     \ 'active_filetypes': [],
-    \ 'passive_filetypes': ['htm;']}
+    \ 'passive_filetypes': []}
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
 " configure spacing
