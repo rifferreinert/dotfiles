@@ -52,8 +52,10 @@ set smartcase
 set encoding=utf8
 set fileencoding=utf8
 
+"use current file's directory
+set autochdir
 
 set history=1000
 
 "ctags
-set tags=tags,./tags
+set tags=tags;
