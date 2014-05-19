@@ -42,6 +42,7 @@ if has('mouse')
     set mouse=a
 endif
 set title
+set wildmenu
 
 "configure search
 set ignorecase
@@ -51,7 +52,6 @@ set smartcase
 set encoding=utf8
 set fileencoding=utf8
 
-set wildmenu
 
 set history=1000
 
