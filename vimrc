@@ -32,9 +32,6 @@ filetype indent on
 set smartindent
 set autoindent
 
-"folding
-set foldmethod=syntax
-
 "configure interface
 set number
 set ruler
@@ -56,6 +53,3 @@ set fileencoding=utf8
 set autochdir
 
 set history=1000
-
-"ctags
-set tags=tags;
