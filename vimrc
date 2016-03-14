@@ -22,10 +22,11 @@ let g:syntastic_mode_map = { 'mode' : 'active',
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
 " configure spacing
-set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+
+autocmd Filetype python setlocal ts=4 sts=4 sw=4 et
+autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
+autocmd Filetype javascript setlocal ts=4 sts=4 sw=4 et
+autocmd Filetype php setlocal ts=4 sts=4 sw=4 et
 
 "automatically indent
 filetype indent on
