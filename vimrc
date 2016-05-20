@@ -21,6 +21,7 @@ let g:syntastic_mode_map = { 'mode' : 'active',
     \ 'active_filetypes': [],
     \ 'passive_filetypes': []}
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
+let g:syntastic_typescript_checkers = ['tslint']
 
 " configure spacing
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
