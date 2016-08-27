@@ -21,7 +21,8 @@ let g:syntastic_mode_map = { 'mode' : 'active',
     \ 'active_filetypes': [],
     \ 'passive_filetypes': []}
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-let g:syntastic_typescript_checkers = ['tslint']
+let g:syntastic_typescript_checkers = ['tslint', 'tsc']
+let g:syntastic_python_checkers = ['pylint']
 
 " configure spacing
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
@@ -34,6 +35,9 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4 et
 filetype indent on
 set smartindent
 set autoindent
+
+"configure keyboard
+set backspace=indent,eol,start
 
 "configure interface
 set number
