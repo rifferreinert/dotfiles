@@ -29,6 +29,7 @@ let g:syntastic_typescript_tsc_args = "--experimentalDecorators"
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 et
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 et
+autocmd Filetype json setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype typescript setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype php setlocal ts=4 sts=4 sw=4 et
 
