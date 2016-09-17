@@ -12,6 +12,7 @@ call vundle#begin()
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'leafgarland/typescript-vim'
+Bundle 'tpope/vim-sensible'
 call vundle#end()
 filetype plugin indent on     " required
 
@@ -34,21 +35,14 @@ autocmd Filetype typescript setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype php setlocal ts=4 sts=4 sw=4 et
 
 "automatically indent
-filetype indent on
 set smartindent
-set autoindent
-
-"configure keyboard
-set backspace=indent,eol,start
 
 "configure interface
 set number
-set ruler
 if has('mouse')
     set mouse=a
 endif
 set title
-set wildmenu
 
 "configure search
 set ignorecase
