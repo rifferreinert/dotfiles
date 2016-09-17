@@ -13,6 +13,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'leafgarland/typescript-vim'
 Bundle 'tpope/vim-sensible'
+Bundle 'tpope/vim-fugitive'
 call vundle#end()
 filetype plugin indent on     " required
 
