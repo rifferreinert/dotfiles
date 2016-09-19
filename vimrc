@@ -14,6 +14,8 @@ Bundle 'scrooloose/syntastic'
 Bundle 'leafgarland/typescript-vim'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-commentary'
+
 call vundle#end()
 filetype plugin indent on     " required
 
@@ -24,6 +26,7 @@ let g:syntastic_mode_map = { 'mode' : 'active',
     \ 'passive_filetypes': []}
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_typescript_checkers = ['tslint', 'tsc']
+let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_python_checkers = ['pylint']
 let g:syntastic_typescript_tsc_args = "--experimentalDecorators"
 
