@@ -12,12 +12,14 @@ call vundle#begin()
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'leafgarland/typescript-vim'
+Bundle 'elzr/vim-json'
 Bundle 'pangloss/vim-javascript'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'slim-template/vim-slim'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-commentary'
+Bundle 'Yggdroot/indentLine'
 
 call vundle#end()
 filetype plugin indent on     " required
