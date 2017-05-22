@@ -12,6 +12,9 @@ call vundle#begin()
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/syntastic'
 Bundle 'leafgarland/typescript-vim'
+Bundle 'pangloss/vim-javascript'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'slim-template/vim-slim'
 Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-commentary'
@@ -26,8 +29,9 @@ let g:syntastic_mode_map = { 'mode' : 'active',
     \ 'passive_filetypes': []}
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_typescript_checkers = ['tslint', 'tsc']
-let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_checkers = ['standard', 'eslint']
 let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_typescript_tsc_args = "--experimentalDecorators"
 
 " configure spacing
@@ -35,8 +39,11 @@ autocmd Filetype html setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype python setlocal ts=4 sts=4 sw=4 et
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype json setlocal ts=2 sts=2 sw=2 et
+autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 et
+autocmd Filetype slim setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype typescript setlocal ts=2 sts=2 sw=2 et
 autocmd Filetype php setlocal ts=4 sts=4 sw=4 et
+autocmd Filetype yaml setlocal ts=2 sts=2 sw=2 et
 
 "automatically indent
 set smartindent
