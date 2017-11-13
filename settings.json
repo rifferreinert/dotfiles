@@ -5,7 +5,15 @@
     "workbench.statusBar.visible": true,
     "editor.minimap.enabled": true,
     "workbench.startupEditor": "newUntitledFile",
+    "[python]": {
+      "editor.rulers": [
+        80
+      ]
+    }
     "[javascript]": {
-      "editor.tabSize": 2
+      "editor.tabSize": 2,
+      "editor.rulers": [
+        100
+      ]
     }
 }
