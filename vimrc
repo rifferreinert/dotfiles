@@ -23,6 +23,9 @@ Plugin 'Yggdroot/indentLine'
 call vundle#end()
 filetype plugin indent on     " required
 
+" remove trailing whitespace
+:nnoremap <silent> <F5> :let _s=@/ <Bar> :%s/\s\+$//e <Bar> :let @/=_s <Bar> :nohl <Bar> :unlet _s <CR>
+
 "syntax
 syntax on
 let g:syntastic_mode_map = { 'mode' : 'active',
@@ -32,6 +35,7 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:syntastic_typescript_checkers = ['tslint', 'tsc']
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_python_checkers = ['pylint']
+let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_typescript_tsc_args = "--experimentalDecorators"
 
 " configure spacing
@@ -61,7 +65,6 @@ set smartcase
 set encoding=utf8
 set fileencoding=utf8
 
-"use current file's directory
-set autochdir
+set clipboard=unnamed
 
 set history=1000
