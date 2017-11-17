@@ -24,5 +24,6 @@
         100
       ],
       "editor.tabSize": 2
-    }
-}
+    },
+    "editor.minimap.enabled": false
+  }
