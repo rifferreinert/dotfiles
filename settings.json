@@ -15,5 +15,17 @@
       "editor.rulers": [
         100
       ]
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.rulers": [
+          100
+        ]
+    },
+    "[json]": {
+      "editor.rulers": [
+        100
+      ],
+      "editor.tabSize": 2
     }
 }
