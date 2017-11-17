@@ -2,9 +2,6 @@
     "files.autoSave": "afterDelay",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
-    "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": true,
-    "workbench.startupEditor": "newUntitledFile",
     "[python]": {
       "editor.rulers": [
         80
