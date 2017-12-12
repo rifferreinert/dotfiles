@@ -25,5 +25,15 @@
       ],
       "editor.tabSize": 2
     },
-    "editor.minimap.enabled": false
+    "[html]": {
+      "editor.rulers": [
+        100
+      ],
+      "editor.tabSize": 2
+    },
+    "[css]": {
+      "editor.tabSize": 2
+    },
+    "editor.minimap.enabled": false,
+    "go.formatOnSave": false
   }
