@@ -1,7 +1,9 @@
 {
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "off",
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "autopep8",
+    "editor.formatOnSave": true,
     "[python]": {
       "editor.rulers": [
         80
@@ -35,5 +37,6 @@
       "editor.tabSize": 2
     },
     "editor.minimap.enabled": false,
-    "go.formatOnSave": false
+    "window.zoomLevel": 0,
+    "git.autofetch": true
   }
