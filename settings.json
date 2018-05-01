@@ -5,6 +5,7 @@
   "editor.formatOnSave": true,
   "python.linting.flake8Enabled": true,
   "python.linting.pylintEnabled": false,
+  "python.formatting.provider": "autopep8",
   "editor.insertSpaces": true,
   "ruby.format": "rubocop",
   "ruby.lint": {
