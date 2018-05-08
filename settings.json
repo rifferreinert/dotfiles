@@ -1,5 +1,6 @@
 {
   "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
   "files.autoSave": "off",
   "editor.formatOnSave": true,
