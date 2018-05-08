@@ -62,4 +62,6 @@
     "-l"
   ],
   "editor.formatOnSaveTimeout": 5000,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
 }
