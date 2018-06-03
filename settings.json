@@ -8,6 +8,7 @@
   "python.formatting.provider": "autopep8",
   "editor.insertSpaces": true,
   "ruby.format": "rubocop",
+  "eslint.autoFixOnSave": true,
   "ruby.lint": {
     "rubocop": {
       "lint": true,
