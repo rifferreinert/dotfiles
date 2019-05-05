@@ -75,12 +75,14 @@
   "workbench.activityBar.visible": true,
   "editor.tabCompletion": true,
   "php-cs-fixer.onsave": true,
-  "php-cs-fixer.executablePath": "${extensionPath}\\php-cs-fixer.phar",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.rules": "@PSR2",
-  "php-cs-fixer.lastDownload": 1531097628711,
+  "php-cs-fixer.lastDownload": 1538269446788,
   "html.format.indentHandlebars": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "all",
+  "breadcrumbs.enabled": true,
+  "python.dataScience.sendSelectionToInteractiveWindow": true
 }
