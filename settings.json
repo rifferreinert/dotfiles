@@ -1,24 +1,20 @@
 {
+  "git.path": "/usr/local/bin/git",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
   "files.autoSave": "off",
   "editor.formatOnSave": true,
-  "python.formatting.provider": "autopep8",
+  "python.formatting.provider": "black",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.enabled": true,
+  "python.linting.mypyEnabled": true,
   "editor.insertSpaces": true,
-  "ruby.format": "rubocop",
   "eslint.autoFixOnSave": true,
   "files.associations": {
     "*.blade.php": "php"
   },
-  "ruby.lint": {
-    "rubocop": {
-      "lint": true,
-      "rails": true,
-      "EnforcedStyle": "lf",
-    },
-  },
-  "ruby.lintDebounceTime": 500,
   "[python]": {
     "editor.formatOnSave": true,
     "editor.rulers": [
@@ -38,6 +34,12 @@
     ]
   },
   "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.rulers": [
+      100
+    ]
+  },
+  "[typescript]": {
     "editor.tabSize": 2,
     "editor.rulers": [
       100
@@ -65,24 +67,20 @@
   },
   "editor.minimap.enabled": false,
   "git.autofetch": true,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "terminal.integrated.shellArgs.linux": [
     "-l"
   ],
-  "editor.formatOnSaveTimeout": 5000,
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "workbench.activityBar.visible": true,
   "editor.tabCompletion": true,
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.rules": "@PSR2",
-  "php-cs-fixer.lastDownload": 1538269446788,
   "html.format.indentHandlebars": true,
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
   "editor.renderWhitespace": "all",
   "breadcrumbs.enabled": true,
-  "python.dataScience.sendSelectionToInteractiveWindow": true
+  "go.formatTool": "goimports",
+  "diffEditor.ignoreTrimWhitespace": false,
 }
